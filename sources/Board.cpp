@@ -38,7 +38,7 @@ namespace pandemic{
     }
 
     Board::Board(){
-        ifstream city_file{"/home/itay/cpp/ex/ex4/pandemic-b/pandemic-b/cities_map.txt"};
+        ifstream city_file{"cities_map.txt"};
         string line;
         while(getline(city_file,line)){
             stringstream words{line};
